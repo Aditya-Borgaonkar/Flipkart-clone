@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: #f1f3f6;
+}
+:root{
+    --primary-color:#2874f0 ;
+}
+
+header{
+    background-color: var(--primary-color);
+    height: 56px;
+}
+header .nav-container{
+    display: flex ;
+
+    align-items: center;
+    height: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+header .nav-container .logo{
+    display: flex;
+    min-width: 137px;
+    justify-content: flex-end;
+}
+
+.nav-container .logo h6{
+    position: absolute;
+    top: 4.9%;
+    left: 13%;
+    font-size:11px;
+    font-style: italic;
+    margin-top: -1;
+    color:#fff;
+    font-weight: 300;
+}
+.nav-container .logo h6 span{
+    font-weight: 400;
+    color: gold;
+    font-style: italic;
+}
+
+header .nav-container .logo img{
+    width: 75px;
+}
+
+header .search{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+header .search .search-container{
+width: 540px;
+height: 36px;
+background-color: white;
+border-radius: 2px;
+box-shadow: 0 2px 4px 0 rgba(0 0 0 /23%);
+display: flex;
+}
+
+header .search .search-container input{
+width: calc(100% - 32px);
+padding: 16px;
+outline: none;
+border: none;    
+}
+
+header .search .search-container button{
+    width: 36px;
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+}
+
+header .login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+header .login button{
+    width: 122px;
+    font-weight: 500;
+    margin-left: 49px;
+    padding: 5px 40px;
+    font-size: 16px;
+    /* font-weight: 600; */
+    border: none;
+    background-color: #fff;
+    color: var(--primary-color);
+}
+ header .become-seller{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+ }
+
+ header .more{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+ }
+ header .more svg{
+    margin-left: 8px;
+    rotate: -90deg;
+ }
+
+ header .cart{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+ }
+
+ header .cart svg{
+    margin-right: 8px;
+ }
+ 
+ /* section-1 */
+ .section-1{
+    width: 100%;
+    height: 122px;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0 0 0 / 16%);
+ }
+ .section-1-container{
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .section-1-item{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+ }
+
+ .section-1-item img{
+    width: 64px;
+    height: 64px;
+ }
+
+ /* Section 2 */
+
+ .section-2-container img{ 
+    margin:auto;
+    height: 100%;
+    width: 110%;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/0735712fe84c602d.jpg?q=50');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+ } 
+ /****************************************************** section 3 *****************************************************/
+.section-3 {
+    min-width: 1064px;
+    /* height: 5490px; */
+    padding: 8px;
+    /* margin-top: 10px; */
+    position: relative;
+}
+
+.section-4::webtkit-scrollbar{
+    display: none;
+}
+
+.carousel-item img {
+    height: 280px;
+    /* max-width: 1680px; */
+    display: flex;
+    
+}
+.more .ttt path{
+    color: red;
+}
+
+#carouselExampleAutoplaying {
+    padding: 0px 0px 10px;
+}
+
+.carousel-control-prev {
+    height: 104px;
+    width: 47px;
+    background-color: white;
+    margin-top: 85px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 11);
+}
+
+.carousel-control-prev i {
+    color: black;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.carousel-control-next {
+    height: 104px;
+    width: 47px;
+    background-color: white;
+    margin-top: 85px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 11);
+
+}
+
+.carousel-control-next i {
+    color: black;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.section-3-container{
+    margin-top: 8px;
+    padding: -10px;
+    height: 122px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/2848/246/image/d56a3ed6d200038a.jpg?q=50');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-4-container{
+    margin-top:8px;
+    height: 362px;
+    background-color: white;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.section-4-offers{ 
+    width: 230px;
+    height: 100%;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/1e483f8045ec13a8.jpg?q=90');
+    background-position: bottom;
+    background-repeat: no-repeat;
+} 
+
+.section-4-offers-viewall {
+    margin-top: 132px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-4-offers-viewall button{
+    margin-top: 24px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0 0 0 /20%);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500px;
+    border: none;
+    border-radius:2px;
+    cursor: pointer;
+}
+
+.section-4-list{
+height: 100%;
+width: calc(100% - 230px);
+display: flex;
+overflow: auto;
+}
+
+.section-4-item{
+    width: 232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* transition: all ease 0.5 */
+    /* overflow: hidden; */
+}
+
+.section-4-item img{
+    max-width: 200px;    
+    max-height: 200px;
+}
+
+.section-4-item :hover img{
+    transform: scale(1) ;
+
+}
+.section-4-item-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-4-item-price{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+}
+
+.section-4-item-explore{
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+/* Section 5 */
+
+.section-5{
+margin-top: 8px;
+display: flex;
+justify-content: space-between;
+}
+.section-5 img{
+    width: 33%;
+}
+
+/* footer */
+footer{
+    height: 430px;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    text-align: left;
+    background-color: #172337;
+    margin-top: 10px;
+}   
+.ta{
+    margin-left: 40px;
+}
+
+tr,td{
+    width:200px;
+    font-size: small;
+    padding: 5px;
+
+}
+table th{
+    font-size: 12px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    color: #878787;
+    padding: 10px;
+    
+}
+.mai{
+    height: 130px;
+    width: 300px;
+    position: absolute;
+    padding-left: 25px;
+    top: 91%;
+    left: 55%;
+    border-left:1px solid #878787;
+}
+.mai h5{
+    color: #878787;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom:5px ;
+}
+.mai h6{
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.res h5{
+    color: #878787;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom:5px ;
+}
+.res h6{
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.res{
+    height: 350px;
+    width: 300px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 91%;
+    left: 75%;
+}
+
+.footer{
+    width: 1502px;
+    position:absolute;
+    top: 90%;
+    left: -390%;
+    border-top:1px solid  #878787;
+}
+.footer .ff{
+    font-size: 15px;
+    margin-left: 5%;
+}
+.footer .imgs{
+    display: flex;
+}
+
+.footer a{
+    /* margin-top: 50px; */
+    /* padding: 10px; */
+    margin: 30px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.section-6 h5{
+    font-weight: 700;
+    font-size: 15px;
+   color: gray;
+   font-family:Roboto,Arial,sans-serif;
+}
+.section-6 p{
+    /* line-height: 11px; */
+    font-size: 14px;
+    color: #878787;;
+    font-weight: 5px;
+}
